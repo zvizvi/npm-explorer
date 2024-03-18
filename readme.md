@@ -1,7 +1,9 @@
-# [NPM Explorer](https://zitros.github.io/npm-explorer)
+# [NPM Explorer](https://npm-explorer.vercel.app)
 
 A file explorer for [NPM](https://www.npmjs.com/).
-Visit [npm-explorer.tk](https://npm-explorer.tk).
+Visit [npm-explorer.vercel.app](https://npm-explorer.vercel.app).
+
+#### [This is a fork of `nikitaeverywhere/npm-explorer` repository, formerly hosted on `npm-explorer.tk`]
 
 The main purpose of this service is to improve quality of NPM packages, primarily because many people
 publish a lot of unnecessary files to NPM (like CI configs, tests, build tools or even whole repositories).
@@ -11,7 +13,7 @@ to the package quality.
 You can easily hotlink packages, individual files and even selected line numbers, for example:
 
 ```txt
-https://zitros.github.io/npm-explorer/?p=lodash/LICENSE
+https://npm-explorer.vercel.app/?p=lodash/LICENSE
 ```
 
 Preview
@@ -24,8 +26,8 @@ Import files from [Lodash](https://lodash.com) carefully!
 Development
 -----------
 
-Anyone is welcome to contribute to the project. The project hosted at [npm-explorer.tk](https://npm-explorer.tk)
-is located in the `docs` directory of this repository. To build this project from sources (`src` 
+Anyone is welcome to contribute to the project. The project hosted at [npm-explorer.vercel.app](https://npm-explorer.vercel.app)
+is located in the `docs` directory of this repository. To build this project from sources (`src`
 directory), run the following:
 
 ```bash

@@ -133,7 +133,7 @@ export default class App extends React.Component {
 
 		replaceUrlState({
 			p: `${ this.state.data.package.name }@${ this.state.data.package.version }${
-				file 
+				file
 					? file.path || ""
 					: ""
 			}`
@@ -158,7 +158,7 @@ export default class App extends React.Component {
 				`layout layout-${ layout } ${ this.state.selectedFile ? "file-selected" : "" }`
 			}>
 			<div className="header">
-				<a href="https://github.com/ZitRos/npm-explorer/blob/master/readme.md"
+				<a href="https://github.com/zvizvi/npm-explorer/blob/master/readme.md"
 				   target="_blank"
 				   className="logo-container">
 					<img className="logo" src="img/favicon.png"/>
